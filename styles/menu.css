@@ -1,0 +1,39 @@
+.menu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 70px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(222, 222, 222);
+    z-index: 101;
+}
+
+.sidebar-button {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    border: none;
+    background-color: white;
+}
+
+.sidebar-icon {
+    position: absolute;
+    top: 16px;
+    left: 23px;
+    height: 25px;
+}
+
+.sidebar-text {
+    position: absolute;
+    top: 45px;
+    left: 1px;
+    font-size: 10px;
+}
+
+.sidebar-button:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
